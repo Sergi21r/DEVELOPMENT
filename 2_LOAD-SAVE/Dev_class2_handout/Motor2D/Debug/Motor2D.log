@@ -1,0 +1,21 @@
+﻿  j1App.cpp
+c:\users\sergism3\desktop\development\2_load-save\dev_class2_handout\motor2d\j1app.cpp(156): error C3867: 'j1App::Save': non-standard syntax; use '&' to create a pointer to member
+c:\users\sergism3\desktop\development\2_load-save\dev_class2_handout\motor2d\j1app.cpp(156): warning C4805: '==': unsafe mix of type 'void (__thiscall j1App::* )(void) const' and type 'bool' in operation
+c:\users\sergism3\desktop\development\2_load-save\dev_class2_handout\motor2d\j1app.cpp(156): error C2446: '==': no conversion from 'int' to 'void (__thiscall j1App::* )(void) const'
+  c:\users\sergism3\desktop\development\2_load-save\dev_class2_handout\motor2d\j1app.cpp(156): note: There are no conversions from integral values to pointer-to-member values
+c:\users\sergism3\desktop\development\2_load-save\dev_class2_handout\motor2d\j1app.cpp(161): error C3867: 'j1App::Load': non-standard syntax; use '&' to create a pointer to member
+c:\users\sergism3\desktop\development\2_load-save\dev_class2_handout\motor2d\j1app.cpp(161): warning C4805: '==': unsafe mix of type 'void (__thiscall j1App::* )(void)' and type 'bool' in operation
+c:\users\sergism3\desktop\development\2_load-save\dev_class2_handout\motor2d\j1app.cpp(161): error C2446: '==': no conversion from 'int' to 'void (__thiscall j1App::* )(void)'
+  c:\users\sergism3\desktop\development\2_load-save\dev_class2_handout\motor2d\j1app.cpp(161): note: There are no conversions from integral values to pointer-to-member values
+  Generating Code...
+  Compiling...
+  j1Audio.cpp
+  Generating Code...
+  Compiling...
+  j1Window.cpp
+  j1Textures.cpp
+  j1Scene.cpp
+  j1Render.cpp
+  j1Main.cpp
+  j1Input.cpp
+  Generating Code...

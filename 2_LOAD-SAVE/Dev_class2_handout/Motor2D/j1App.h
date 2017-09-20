@@ -49,6 +49,9 @@ public:
 	// will one execute by the very end of the frame
 	// Load / Save
 
+	void Save() const{}
+	void Load(){}
+
 private:
 
 	// Load config file
@@ -68,6 +71,13 @@ private:
 
 	// Call modules after each loop iteration
 	bool PostUpdate();
+
+	// Load
+	bool needs_save = false;
+	bool needs_load = false;
+
+	void RealSave() const{}
+	void RealLoad(){} 
 
 public:
 
