@@ -1,5 +1,4 @@
 #include <stdlib.h>
-
 #include "p2Defs.h"
 #include "p2Log.h"
 #include "j1App.h"
