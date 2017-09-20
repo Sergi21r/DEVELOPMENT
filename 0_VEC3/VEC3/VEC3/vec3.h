@@ -15,25 +15,17 @@ public:
 	vec3() {}
 	vec3(TYPE x, TYPE y, TYPE z) : x(x), y(y) z(z) {}
 
-	TYPE operator+(const TYPE other_vec)
+	TYPE operator+(const vec3 other_vec)
 	{
-		return other_vec.x + x && other_vec.y + y && other_vec.z + z;
+		return other_vec(x + other_vec.x , y + other_vec.y , z + other_vec.z);
 	}
 
-	bool operator== (const TYPE other_vec)
+	bool operator== (vec3 other_vec)
 	{
 		return other_vec.x == x && other_vec.y == y && other_vec.z == z;
 	}
 
-
-
-}
-
-
-
-
-
-
-
+};
 
 #endif
+

@@ -1,2 +1,5 @@
 ﻿  main.cpp
-main.cpp(6): error C2143: error de sintaxis: falta ';' delante de 'int'
+  Generating code
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  VEC3.vcxproj -> C:\Users\sergism3\Desktop\DEVELOPMENT\0_VEC3\VEC3\x64\Release\VEC3.exe
